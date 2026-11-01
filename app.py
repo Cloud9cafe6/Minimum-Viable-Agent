@@ -16,7 +16,7 @@ if not api_key:
 
 # Configure the Model
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel('gemini-2.0-flash')
+model = genai.GenerativeModel('gemini-3.8-flash')
 
 # --- 2. MEMORY INITIALIZATION (Layer 3) ---
 # Initialize chat history in Streamlit's session state
