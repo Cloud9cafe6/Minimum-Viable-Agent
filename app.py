@@ -16,7 +16,7 @@ if not api_key:
 
 # Configure the Model (Layer 4: Models)
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel('gemini-2.0-flash')
+model = genai.GenerativeModel('gemini-3.5-flash')
 
 # --- 2. THE TOOL (Layer 5: Tools & Actions) ---
 def search_web(query):
